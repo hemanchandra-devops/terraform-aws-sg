@@ -9,7 +9,6 @@ variable "environment" {
 }
 
 variable "sg_name" {
-  type = list(any)
 }
 
 variable "sg_description" {
