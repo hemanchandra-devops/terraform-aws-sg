@@ -9,11 +9,10 @@ variable "environment" {
 }
 
 variable "sg_name" {
+  type = list(any)
 }
 
 variable "sg_description" {
-  type    = map(any)
-  default = {}
 }
 
 variable "sg_tags" {
