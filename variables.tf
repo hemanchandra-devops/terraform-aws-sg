@@ -17,6 +17,11 @@ variable "sg_description" {
   default = {}
 }
 
+variable "sg_tags" {
+  type    = map(any)
+  default = {}
+}
+
 variable "vpc_id" {
   type = string
 }
