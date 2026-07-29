@@ -8,7 +8,7 @@ variable "environment" {
   description = "Environment"
 }
 
-variable "sg_names" {
+variable "sg_name" {
   type = list(any)
 }
 
