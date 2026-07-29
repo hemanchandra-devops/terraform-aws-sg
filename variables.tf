@@ -9,7 +9,7 @@ variable "environment" {
 }
 
 variable "sg_name" {
-  type        = list
+  type        = string
 }
 
 variable "sg_description" {
